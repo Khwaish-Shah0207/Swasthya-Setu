@@ -1,0 +1,26 @@
+{
+  "snapshotVersion": "2025-11-WHO-ICD11-2024-01release",
+  "capturedAt": "2026-07-28T09:12:00Z",
+  "source": "WHO ICD-11 API (icd11ect) - cached during last successful sync",
+  "concepts": [
+    { "code": "ME84.3", "title": "Sciatica", "uri": "https://id.who.int/icd/entity/1177378914", "linearization": "Biomedicine", "chapter": "Diseases of the nervous system" },
+    { "code": "AB70.2", "title": "Otalgia", "uri": "https://id.who.int/icd/entity/1650669823", "linearization": "Biomedicine", "chapter": "Diseases of the ear or mastoid process" },
+    { "code": "MC41", "title": "Tinnitus", "uri": "https://id.who.int/icd/entity/1954798783", "linearization": "Biomedicine", "chapter": "Symptoms, signs, clinical findings" },
+    { "code": "MA82.10", "title": "Hoarseness", "uri": "https://id.who.int/icd/entity/1156181146", "linearization": "Biomedicine", "chapter": "Symptoms, signs, clinical findings" },
+    { "code": "MB41.2", "title": "Dysgeusia", "uri": "https://id.who.int/icd/entity/1859305645", "linearization": "Biomedicine", "chapter": "Symptoms, signs, clinical findings" },
+    { "code": "DA42.0", "title": "Gastro-oesophageal reflux disease", "uri": "https://id.who.int/icd/entity/826681232", "linearization": "Biomedicine", "chapter": "Diseases of the digestive system" },
+    { "code": "MG30", "title": "Fever of unknown origin", "uri": "https://id.who.int/icd/entity/2058306616", "linearization": "Biomedicine", "chapter": "Symptoms, signs, clinical findings" },
+    { "code": "8A80", "title": "Headache disorders", "uri": "https://id.who.int/icd/entity/1611963331", "linearization": "Biomedicine", "chapter": "Diseases of the nervous system" },
+    { "code": "EA80", "title": "Eczema", "uri": "https://id.who.int/icd/entity/1288485349", "linearization": "Biomedicine", "chapter": "Diseases of the skin" },
+    { "code": "5A11", "title": "Type 2 diabetes mellitus", "uri": "https://id.who.int/icd/entity/1155417295", "linearization": "Biomedicine", "chapter": "Endocrine, nutritional or metabolic diseases" },
+    { "code": "MD12", "title": "Cough", "uri": "https://id.who.int/icd/entity/1424076142", "linearization": "Biomedicine", "chapter": "Symptoms, signs, clinical findings" },
+    { "code": "TM2-SP70", "title": "Vata vyadhi affecting lower limb", "uri": "https://id.who.int/icd/release/11/2024-01/mms/tm2/SP70", "linearization": "TM2", "chapter": "Traditional Medicine Conditions - Module 2 (Ayurveda pattern)" },
+    { "code": "TM2-SP41", "title": "Karna nada (Vata pradhana)", "uri": "https://id.who.int/icd/release/11/2024-01/mms/tm2/SP41", "linearization": "TM2", "chapter": "Traditional Medicine Conditions - Module 2 (Ayurveda pattern)" },
+    { "code": "TM2-DA12", "title": "Amlapitta (Pitta pradhana)", "uri": "https://id.who.int/icd/release/11/2024-01/mms/tm2/DA12", "linearization": "TM2", "chapter": "Traditional Medicine Conditions - Module 2 (Ayurveda pattern)" },
+    { "code": "TM2-GN10", "title": "Sannipatika jwara", "uri": "https://id.who.int/icd/release/11/2024-01/mms/tm2/GN10", "linearization": "TM2", "chapter": "Traditional Medicine Conditions - Module 2 (Ayurveda pattern)" },
+    { "code": "TM2-RA20", "title": "Vataja-kaphaja kasa", "uri": "https://id.who.int/icd/release/11/2024-01/mms/tm2/RA20", "linearization": "TM2", "chapter": "Traditional Medicine Conditions - Module 2 (Ayurveda pattern)" },
+    { "code": "TM2-NP30", "title": "Vataja shirashoola", "uri": "https://id.who.int/icd/release/11/2024-01/mms/tm2/NP30", "linearization": "TM2", "chapter": "Traditional Medicine Conditions - Module 2 (Ayurveda pattern)" },
+    { "code": "TM2-EN14", "title": "Madhumeha (Kaphaja prameha)", "uri": "https://id.who.int/icd/release/11/2024-01/mms/tm2/EN14", "linearization": "TM2", "chapter": "Traditional Medicine Conditions - Module 2 (Ayurveda pattern)" },
+    { "code": "SL41", "title": "Cough disorder", "uri": "https://id.who.int/icd/release/11/2024-01/mms/tm2/SL41", "linearization": "TM2", "chapter": "Traditional Medicine Conditions - Module 2 (Ayurveda pattern)" }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "users": [
+    {
+      "id": "U-01",
+      "name": "Dr. Ananya Mehta",
+      "role": "clinician",
+      "designation": "Consultant Physician, Ayurveda Integrative Care",
+      "hospital": "Wellness Hospital",
+      "username": "ananya.mehta"
+    },
+    {
+      "id": "U-02",
+      "name": "Rohit Kulkarni",
+      "role": "admin",
+      "designation": "Terminology Manager",
+      "hospital": "Wellness Hospital",
+      "username": "rohit.kulkarni"
+    }
+  ],
+  "patients": [
+    {
+      "id": "PAT-001",
+      "name": "Rahul Sharma",
+      "age": 41,
+      "gender": "Male",
+      "mrn": "MRN-88213",
+      "phone": "+91 98xxxxxx21",
+      "lastVisit": "2026-08-12",
+      "consent": {
+        "dataSharing": true,
+        "recordedOn": "2026-01-04"
+      }
+    },
+    {
+      "id": "PAT-002",
+      "name": "Meena Iyer",
+      "age": 34,
+      "gender": "Female",
+      "mrn": "MRN-88214",
+      "phone": "+91 98xxxxxx45",
+      "lastVisit": "2026-08-10",
+      "consent": {
+        "dataSharing": true,
+        "recordedOn": "2026-02-11"
+      }
+    },
+    {
+      "id": "PAT-003",
+      "name": "Arvind Menon",
+      "age": 58,
+      "gender": "Male",
+      "mrn": "MRN-88215",
+      "phone": "+91 98xxxxxx09",
+      "lastVisit": "2026-08-05",
+      "consent": {
+        "dataSharing": false,
+        "recordedOn": "2026-03-02"
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "id": "COND-1001",
+      "patientId": "PAT-001",
+      "namasteCode": "AAB-37",
+      "recordedDate": "2026-08-12",
+      "recordedBy": "Dr. Ananya Mehta",
+      "clinicalStatus": "active",
+      "verificationStatus": "confirmed"
+    }
+  ],
+  "auditLog": [
+    {
+      "id": "A-0001",
+      "timestamp": "2026-08-12T09:02:11+05:30",
+      "user": "Dr. Ananya Mehta",
+      "action": "LOGIN",
+      "resource": "Session",
+      "status": "success",
+      "detail": "Signed in as AYUSH Doctor"
+    },
+    {
+      "id": "A-0002",
+      "timestamp": "2026-08-12T09:03:44+05:30",
+      "user": "Dr. Ananya Mehta",
+      "action": "SEARCH_TERMINOLOGY",
+      "resource": "sciatica",
+      "status": "success",
+      "detail": "Searched terminology for \"sciatica\""
+    },
+    {
+      "id": "A-0003",
+      "timestamp": "2026-08-12T09:04:20+05:30",
+      "user": "Dr. Ananya Mehta",
+      "action": "VIEW_MAPPING",
+      "resource": "AAB-37",
+      "status": "success",
+      "detail": "Viewed NAMASTE \u2192 TM2 \u2192 ICD-11 mapping for AAB-37"
+    },
+    {
+      "id": "A-0004",
+      "timestamp": "2026-08-12T09:05:02+05:30",
+      "user": "Dr. Ananya Mehta",
+      "action": "ADD_TO_PROBLEM_LIST",
+      "resource": "PAT-001 / AAB-37",
+      "status": "success",
+      "detail": "Added AAB-37 (G\u1e5bdhras\u012b) to Rahul Sharma's problem list"
+    },
+    {
+      "id": "A-0005",
+      "timestamp": "2026-07-28T09:12:00+05:30",
+      "user": "System",
+      "action": "WHO_SYNC",
+      "resource": "WHO ICD-11 API",
+      "status": "success",
+      "detail": "Synchronised 17 concepts (10 Biomedicine, 7 TM2)"
+    }
+  ],
+  "manualMappings": [],
+  "terminologyMeta": {
+    "namasteVersion": "v1.2-demo",
+    "namasteRecordCount": 12,
+    "whoIcdVersion": "2024-01",
+    "lastSyncAt": "2026-07-28T09:12:00Z",
+    "lastSyncConceptCount": 17,
+    "conceptMapVersion": "v1.0",
+    "lastSyncStatus": "success",
+    "lastSyncMode": "snapshot-fallback"
+  }
+}

@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+:root {
+  /* --- Palette --------------------------------------------------------- */
+  --color-canvas: #FAF9F4;       /* warm off-white page background */
+  --color-surface: #FFFFFF;      /* card surfaces */
+  --color-surface-sunken: #F2F0E7; /* recessed panels, table stripes */
+  --color-ink: #16211D;          /* primary text — deep green-black */
+  --color-ink-muted: #55645C;    /* secondary text */
+  --color-line: #E1DDCF;         /* hairline borders */
+
+  --color-teal-900: #0A3B33;
+  --color-teal-700: #0F5C4C;
+  --color-teal-500: #1C7C63;
+  --color-teal-100: #E4F0EA;
+
+  --color-gold-700: #93691E;
+  --color-gold-500: #B98A2E;
+  --color-gold-100: #F6ECD6;
+
+  --color-slate-700: #3C4A63;
+  --color-slate-500: #5A6E8C;
+  --color-slate-100: #E9EDF4;
+
+  --color-danger-700: #8A3220;
+  --color-danger-100: #F7E4DD;
+
+  --color-success-700: #256A45;
+  --color-success-100: #E1F1E7;
+
+  /* --- Type -------------------------------------------------------------*/
+  /* Google Fonts are unreachable from this build environment, so the
+     identity is expressed through a curated system-font stack instead:
+     a literary serif for display type, a clean grotesque for UI text, and
+     the platform's native Devanagari-capable stack for Sanskrit terms. */
+  --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+  --font-body: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-devanagari: "Noto Sans Devanagari", "Nirmala UI", "Mangal", "Kohinoor Devanagari", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+* {
+  border-color: var(--color-line);
+}
+
+html {
+  color-scheme: light;
+}
+
+body {
+  background: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-devanagari {
+  font-family: var(--font-devanagari);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+::selection {
+  background: var(--color-teal-100);
+  color: var(--color-teal-900);
+}
+
+/* Visible keyboard focus, kept consistent across the app */
+:focus-visible {
+  outline: 2px solid var(--color-teal-700);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Subtle stepwell-arc watermark used as a quiet recurring motif in headers */
+.setu-arcs {
+  background-image: repeating-radial-gradient(
+    circle at 50% 130%,
+    transparent 0,
+    transparent 38px,
+    var(--color-line) 39px,
+    var(--color-line) 40px
+  );
+  background-position: center bottom;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: var(--color-line);
+  border-radius: 4px;
+}
