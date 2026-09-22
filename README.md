@@ -7,7 +7,7 @@ A FHIR R4-compliant terminology interoperability layer that bridges India's
 International Terminologies for Ayurveda** and **WHO ICD-11** (Traditional
 Medicine Module 2 and Biomedicine).
 
-Built for Smart India Hackathon 2026.
+
 
 > **This is not a hospital management system or a generic dashboard.** The
 > core product is a terminology integration plugin/microservice that any

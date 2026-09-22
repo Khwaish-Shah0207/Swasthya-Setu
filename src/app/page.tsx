@@ -88,7 +88,7 @@ export default function LandingPage() {
           <div className="max-w-3xl mx-auto rounded-xl border border-[var(--color-gold-500)]/40 bg-[var(--color-gold-100)] p-6 text-center">
             <p className="text-sm text-[var(--color-gold-700)] font-medium">Demonstration prototype</p>
             <p className="text-sm text-[var(--color-ink)] mt-1 max-w-xl mx-auto">
-              Built for Smart India Hackathon 2026. Log in to walk through the full clinician and terminology
+              Log in to walk through the full clinician and terminology
               management workflow using the demonstration EMR — Wellness Hospital.
             </p>
           </div>
